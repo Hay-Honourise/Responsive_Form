@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-bottom: 60px;
+  }
+
+.container{
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(89, 43, 162);
+
+    position: absolute;
+    top:5%;
+    left: 15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 80%;
+    height: 90%;
+    padding: 20px 10px;
+    background-color: rgb(32, 72, 117);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myform{
+    width: 60%;
+}
+
+#myform .form-div{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#form-div2 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myform label, .form-div textarea, .form-div p{
+    color: rgb(210, 198, 210);
+}
+
+#myform input[type=text], input[type=number],input[type=password],
+input[type=email]{
+    height: 30px;
+    width: 300px;
+    text-indent: 0;
+    outline: 0;
+    border: 0;
+}
+
+#myform textarea{
+    height: 30px;
+    text-indent: 0;
+    outline: 0;
+    border: 0;
+     width: 300px;
+}
+
+#myform button{
+    color: black;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 38px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    font-weight: bold;
+}
+
+#form{
+    margin-right: 200px;
+    margin-top: 5px;
+}
+
